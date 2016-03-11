@@ -44,7 +44,7 @@ function rv_get_latest_tweet($offset, $user){
 function rv_get_latest_tweet_shortcode( $atts ) {
     $a = shortcode_atts( array(
         'offset' => 0,
-        'user' => 'saraniccoli'
+        'user' => 'hornbein'
     ), $atts );
     
     global $wp_embed;
