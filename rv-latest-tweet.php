@@ -30,14 +30,9 @@ function rv_get_latest_tweet($offset, $user){
         $tweet["date"] = $date;
       }
 
-  /*$out = '<blockquote class="twitter-tweet" data-lang="en-gb">
-    <p class="tweetBody" lang="en" dir="ltr">' . $tweet['text'] .'</p>&mdash; '. $tweet['name'].' (@' . $user . ')
-    <a class="tweetDate" href="https://twitter.com/' . $user . '/status/' . $tweet['id'] .'">' . $tweet['date'] .'</a>
-  </blockquote>';*/
-
-  $out2 = 'https://twitter.com/' . $user . '/status/' . $tweet['id'];
+  $out = 'https://twitter.com/' . $user . '/status/' . $tweet['id'];
   
-  return $out2;
+  return $out;
 
 }
 
